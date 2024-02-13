@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    background-image: url("images/background2.webp");
+    background-repeat: no-repeat;
+    /* background image 반복해서 생기지 않도록 하는 것  */
+    background-size: cover;
+    /* cover 하면 꽉차게 만들어짐 */
+}
+
+
+
+.container{
+    background-color: white;
+    min-height: 100vh;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    /* vh view height 보는 만큼의 높이! */
+    /*  박스 쉐도우 쓰고 싶을 때 https://getcssscan.com/css-box-shadow-examples  */
+    /*  구글에 box shadow css 쳐서 보기  */
+}
+
+
+
+.task-aera{
+     border: solid 1px lightgray;
+}
+
+
+.task-tabs{
+    display: flex;
+    border-bottom: solid 1px lightgray;
+    position: relative;
+}
+/* 밑에 under-line 의 position :absolute 의 기준점이  task-tabs 니까  position relative 를 넣어주기 */
+
+#under-line{
+ height:4px ;
+ background-color: plum;
+ position: absolute;
+ width: 80px;
+ left: 0px;
+ top: 52px;
+ padding: 0px;
+ /* div 태그에 항상 padding 기본값이 들어있다 */
+}
+/* id는 # */
+/* 메뉴 슬라이딩 만들기 참고 */
+
+
+
+.task-tabs div{
+    padding: 1em;
+}
+/* task-tabs 안에 있는 div 태그들 */
+
+
+.task{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
