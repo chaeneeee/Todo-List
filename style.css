@@ -56,5 +56,34 @@ body{
 .task{
     display: flex;
     justify-content: space-between;
-    padding: 1em;
+   padding: 1em;
+   flex-grow: 1;
 }
+
+
+.task-done{
+    text-decoration: line-through;
+    
+}
+
+
+.task-background{
+    background-color: lightgrey;
+}
+    
+   
+    /*  글씨는 감사는 상위 요소 스타일 검색해보기 */
+    
+    
+    /* text에 가운데 밑줄그어주는거 */
+
+
+.fa-solid{
+    color: green;
+}
+
+
+.fa-regular{
+    color: red;
+}
+
