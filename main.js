@@ -131,7 +131,7 @@ function render(){
         // 돌아오고 false 면 true 값이 돌아온다. 스위치 처럼 쓰인다.
       }
      }
-     filter()
+     render(); 
      console.log(taskList)
     }
     
@@ -142,7 +142,7 @@ function render(){
            break; 
         }
       }
-      filter()
+      render(); 
     }
        
 
