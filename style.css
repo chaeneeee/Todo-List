@@ -35,6 +35,7 @@ body{
 #under-line{
  height:4px ;
  background-color: plum;
+ transition: 0.5s;
  position: absolute;
  width: 80px;
  left: 0px;
@@ -67,6 +68,11 @@ body{
 }
 
 
+.task-tabs div{
+    cursor: pointer;
+}
+
+
 .task-background{
     background-color: lightgrey;
 }
@@ -87,3 +93,8 @@ body{
     color: red;
 }
 
+/* how to change cursor on div tag css div에 가져다 댔을 때 커서 모양 바꾸는 법 */
+/* googled에 how to 랑 단어 조합해서 찾아보기  */
+task-tabs div{
+    cursor: pointer;
+}
